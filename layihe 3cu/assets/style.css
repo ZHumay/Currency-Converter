@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.banklogo{
+    width: 89px;
+height: 23px;
+margin-left: 100px;
+margin-top: 24px;
+}
+.container{
+    width: 1152px;
+height: 700px;
+background-color: white;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.text{
+
+    margin-left:90px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.headertext{
+width: 40px;
+height: 19px;
+margin-right: 120px;
+margin-top: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+
+
+letter-spacing: 0.06em;
+color: #959BA4;
+
+}
+.headertext1{
+
+    width: 50px;
+    height: 19px;
+    margin-right: 120px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    
+    
+    letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+.headertextson{
+    width: 50px;
+    height: 19px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+
+    h1 {
+        width: 587px;
+        height: 32px;
+     
+        
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        margin: 156px 0px 67px 253px
+    
+    
+    }
+button#exchange2{
+    display: none;
+}
+
+.containerr{
+    height: 500px;
+    width: 1000px;
+
+   background-color: white;
+    margin-top: 10vh;
+    margin-left: 230px;
+    padding:20px;
+    border: none;
+    color: #000000;
+    opacity: 1;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.currency{
+    width:200px;
+    height:100px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+    
+}
+
+.currency select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* background-color:rgb(168, 115, 115); */
+background-color: #8244d4;
+color: #0e3114;
+width : 150px;
+height: 32px;
+border: none;
+margin-right: 90px;
+border-radius: 5px;
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+
+.currency input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 1px solid gray;
+    background-color: white;
+    color: #192c1e;
+    width: 120px;
+    height: 50px;
+   
+
+    padding:20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 54px;
+    margin-right: 60px;
+    
+}
+.currency select option{
+    background-color: white;
+    font-size: 1rem;
+    color: rgb(20, 41, 26);
+    
+}
+
+.result {
+
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ button#exchange  {
+    width: 3px;
+    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-right: 140px;
+    background-color: transparent;
+    color:#213a25;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    padding-bottom : 70px;
+    border: none;
+   /* border: 2px solid #000;*/
+    border-radius: 50px;
+}
+
+
+ /* button#exchange:active{
+} */
+
+ .rate{
+   background-color: white;
+    color: #000000;    
+    width: 500px;
+    height: 35px;
+    border-radius: 15px   ;
+    border-radius: 35px;
+    margin-top: 80px;
+   margin-left: -860px;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+}
+
+select:focus, input:focus, button:focus {
+	outline: 0;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:991px){
+
+
+    .banklogo{
+        width: 49px;
+    height: 13px;
+    margin-left: 10px;
+    margin-top: 30px;
+    }
+    .container{
+        max-width: 32%;
+       min-width: 10%;
+    height: 700px;
+   
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        min-width: 12%;
+        justify-content: space-between;
+   
+    
+    }
+    .text{
+       
+        min-width: 12%;
+        margin-left:24px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        margin-bottom: 4px;
+    
+    }
+    .headertext{
+     min-width: 12%; 
+    
+    height: 9px;
+    margin-right: 10px;
+    margin-left: 34px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 13px;
+   
+    letter-spacing: 0.06em;
+    color: #959BA4;
+    
+    }
+    .headertext1{
+        min-width: 10%;
+        
+        height: 9px;
+position:absolute;
+left: 84px;
+        margin-top: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7px;
+        line-height: 13px;
+        
+        
+        letter-spacing: 0.06em;
+    
+    color: #000000;
+    
+    }
+    .headertextson{
+       max-width:12% ; 
+       min-width: 10%;
+        height: 9px;
+    
+   
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7px;
+        line-height: 13px;
+        letter-spacing: 0.06em;
+    
+    color: #000000;}
+    
+    h1 {
+        width: 587px;
+        height: 32px;
+     
+        
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 42px;
+        color: #000000;
+        margin: 136px 0px 0px 93px
+    
+    
+    }
+
+    .containerr{
+        height: 300px;
+        width: 500px;
+    
+       background-color: white;
+        margin-top: 10px;
+        margin-left: 90px;
+        padding:20px;
+        border: none;
+        color: #000000;
+        opacity: 1;
+        text-align: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+   button#exchange2{
+    display: block;
+    width:100px;
+    margin-top: 80px;
+    background-color: white;
+    border: none;
+    font-size: 33px;
+    margin-left: -33px;
+   }
+   button#exchange{
+    display: none;
+   }
+    
+    }
+    
+
+    
