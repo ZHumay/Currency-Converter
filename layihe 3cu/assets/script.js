@@ -11,6 +11,9 @@ output_currency.addEventListener('change', compute);
 input_amount.addEventListener('input', compute);
 output_amount.addEventListener('input', compute);
 
+
+
+
 exchange.addEventListener('click', ()=>{
     const temp = input_currency.value;
     input_currency.value = output_currency.value;
@@ -37,3 +40,16 @@ function compute(){
 }
 
 compute();
+
+
+// function compute2(){
+//     const input_currency1 = input_currency.value;
+//     const output_currency1 = output_currency.value;
+
+//     fetch(`https://api.exchangerate-api.com/v4/latest/${output_currency1}`)
+//     .then(res => res.json())
+//     const new_rate = res.rates[input_currency1];
+//     input_amount.value=(output_amount.value * new_rate).toFixed(2);
+// }
+
+// compute2();
